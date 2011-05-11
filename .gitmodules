@@ -1,0 +1,3 @@
+[submodule "php/Geolocator"]
+	path = php/Geolocator
+	url = git://github.com/gburtini/Geolocator.git

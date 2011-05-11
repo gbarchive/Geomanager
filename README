@@ -1,0 +1,26 @@
+A quick Geolocation library wrapper. Currently implements Geoplugin.net, IPInfoDB and MaxMind GeoIP City Lite. The main class is Geolocator.php:Geolocator.
+
+Other files:
+  Geolibrary.php is the parent of the library classes.
+  libraries/* is the implementation for the geolocation services.
+
+Configuration:
+  Geoplugin.net would appreciate if you registered your site if you use their API.
+  IPInfoDB requires an API key, specified in libraries/Ipinfodb.php.
+  MaxMind GeoIP City Lite requires a GeoIP database downloaded from Maxmind and a path to it specifeid in libraries/Maxmind_city.php.
+  If you don't specify either of these things, those two APIs will both fail and only Geoplugin.net will work.
+
+License
+   Copyright 2011 Giuseppe Burtini 
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this library except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
